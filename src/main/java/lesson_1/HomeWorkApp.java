@@ -20,7 +20,10 @@ public class HomeWorkApp {
     }
 
     static void checkSumSign() {
-        int a = in.nextInt(); int b = in.nextInt();
+        System.out.println("Input value A: ");
+        int a = in.nextInt();
+        System.out.println("Input value B: ");
+        int b = in.nextInt();
         if (a+b >= 0) {
             System.out.println("Сумма положительная");
         } else {
@@ -29,6 +32,7 @@ public class HomeWorkApp {
         }
 
     static void printColor(){
+        System.out.println("Input value: ");
         int value = in.nextInt();
         if (value <= 0){
             System.out.println("Красный");
@@ -42,7 +46,10 @@ public class HomeWorkApp {
     }
 
     static void compareNumbers(){
-        int a = in.nextInt(); int b = in.nextInt();
+        System.out.println("Input value A: ");
+        int a = in.nextInt();
+        System.out.println("Input value B: ");
+        int b = in.nextInt();
         if (a>b){
             System.out.println("a >= b");
         }

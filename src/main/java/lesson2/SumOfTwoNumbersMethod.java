@@ -2,7 +2,7 @@ package lesson2;
 
 public class SumOfTwoNumbersMethod {
     public static void main(String[] args) {
-        sumOfTwoNumbers(15,18);
+        sumOfTwoNumbers(15,5);
     }
 
     static boolean sumOfTwoNumbers(int firstNumber, int secondNumber){

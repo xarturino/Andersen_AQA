@@ -25,7 +25,6 @@ public class Employee {
     public static void employeeInfo(@NotNull Employee emp){
         System.out.println(emp.fio + " " + emp.position + " " + emp.email + " " + emp.phoneNumber + " " + emp.salary + " " + emp.age);
     }
-
 }
 
 class EmployeeTest{

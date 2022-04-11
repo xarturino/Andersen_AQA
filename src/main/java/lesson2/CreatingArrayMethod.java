@@ -1,7 +1,5 @@
 package lesson2;
 
-import org.jetbrains.annotations.Contract;
-import org.jetbrains.annotations.NotNull;
 
 public class CreatingArrayMethod {
 
@@ -9,8 +7,8 @@ public class CreatingArrayMethod {
         creatingArray(6,2);
     }
 
-    @Contract(pure = true)
-    static int @NotNull [] creatingArray(int len, int initialValue) {
+
+    static int [] creatingArray(int len, int initialValue) {
         int a = len;
         int b = initialValue;
         int array[] = new int[a];

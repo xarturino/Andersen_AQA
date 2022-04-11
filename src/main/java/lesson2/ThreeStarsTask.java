@@ -1,6 +1,5 @@
 package lesson2;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.util.Arrays;
 
@@ -15,7 +14,7 @@ public class ThreeStarsTask {
     }
 
 
-    static void shiftArrayPositiveNumber(int @NotNull [] array, int shiftPositiveNumber){
+    static void shiftArrayPositiveNumber(int [] array, int shiftPositiveNumber){
 
         int shift = array[shiftPositiveNumber];
         for (int i = shiftPositiveNumber; i > 0; i--){
@@ -26,7 +25,7 @@ public class ThreeStarsTask {
     }
 
     // запутался, надо подумать
-    static void shiftArrayNegativeNumber(int @NotNull [] array, int shiftNegativeNumber){
+    static void shiftArrayNegativeNumber(int [] array, int shiftNegativeNumber){
 
         int shift = array[Math.abs(shiftNegativeNumber)];
         for (int i = shiftNegativeNumber; i < 0; i++){

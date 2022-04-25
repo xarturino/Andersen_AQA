@@ -8,6 +8,7 @@ public class Animal {
 
     protected Animal(){
         count++;
+        System.out.println("There are " + count + " animals");
     }
 
     protected void running(double distance){
@@ -20,3 +21,22 @@ public class Animal {
 }
 
 
+class AnimalTest{
+    public static void main(String[] args) {
+
+        Animal animal = new Animal();
+        animal.running(100);
+        Dog dog = new Dog("Steve");
+        dog.running(100);
+        dog.swimming(10);
+        dog.running(2000);
+        dog.swimming(400);
+
+        Cat cat = new Cat("Sven");
+        cat.running(100);
+        cat.swimming(10);
+        cat.running(2000);
+
+
+    }
+}

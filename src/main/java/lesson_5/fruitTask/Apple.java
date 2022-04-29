@@ -4,6 +4,7 @@ public class Apple extends Fruit {
 
     float weight = 1.0f;
     static int count;
+    final String name = "apple";
 
     Apple() {
         count++;

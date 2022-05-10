@@ -27,10 +27,4 @@ public class TriangleFunctions {
     }
 }
 
-
-class Test{
-    public static void main(String[] args) {
-        TriangleFunctions triangleFunctions = new TriangleFunctions();
-        triangleFunctions.findArea(-6.00,-4.00,-6.00);
-    }
-}
+//TODO Logger and try to understand why test are not written in report

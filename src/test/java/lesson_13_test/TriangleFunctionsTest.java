@@ -1,3 +1,5 @@
+package lesson_13_test;
+
 import junit.framework.Assert;
 import lesson_13.TriangleFunctions;
 import org.junit.jupiter.api.Test;

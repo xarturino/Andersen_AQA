@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: lesson_13_test.TriangleFunctionsTest
+Test set: lesson_13.TriangleFunctionsTest
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec

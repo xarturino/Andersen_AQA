@@ -1,30 +1,29 @@
-package lesson_13_test;
+package lesson_13;
 
-import junit.framework.Assert;
-import lesson_13.TriangleFunctions;
 import org.junit.jupiter.api.Test;
 import static java.lang.Double.NaN;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 public class TriangleFunctionsTest {
-
     TriangleFunctions triangleFunctions = new TriangleFunctions();
 
     @Test
     void findCorrectAreaOfTriangle(){
         double expectedArea = 11.313708498984761;
         double actualArea = triangleFunctions.findArea(6,6,4);
-        Assert.assertEquals(expectedArea,actualArea);
+        assertEquals(expectedArea,actualArea);
     }
 
     @Test
     void triangleWithWrongSides(){
         double area = triangleFunctions.findArea(12,4,6);
-        Assert.assertEquals(NaN,area);
+        assertEquals(NaN,area);
     }
 
     @Test
-    void negativeNumbersofSides(){
+    void negativeNumbersOfSides(){
         double area = triangleFunctions.findArea(-3,-9,-5);
-        Assert.assertEquals(0.0,area);
+        assertEquals(0.0,area);
     }
 }
